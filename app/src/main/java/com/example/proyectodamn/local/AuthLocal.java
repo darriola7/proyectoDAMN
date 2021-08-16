@@ -38,9 +38,9 @@ public class AuthLocal implements Serializable {
     @AllArgsConstructor
     public static class Geolocalizacion implements Serializable {
         @SerializedName("longitud")
-        public Integer longitud;
+        public double longitud;
         @SerializedName("latitud")
-        public Integer latitud;
+        public double latitud;
 
     }
 

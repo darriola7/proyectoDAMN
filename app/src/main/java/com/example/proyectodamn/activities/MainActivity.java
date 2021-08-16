@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goLocales(View view) {
-        Intent intent = new Intent(getBaseContext(), LocalActivity.class);
+        Intent intent = new Intent(getBaseContext(), MapaActivity.class);
         startActivity(intent);
     }
 
